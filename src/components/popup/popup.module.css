@@ -1,0 +1,31 @@
+.closed {
+    display: none;
+}
+
+.popup {
+    position: absolute;
+    z-index: 2;
+    width: 45vw;
+    height: 15vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: floralwhite;
+}
+
+.popup h1 {
+    color: black;
+}
+
+.popup button {
+    margin-top: 2vw;
+    padding: 1vw 2vw;
+    background-color: floralwhite;
+    border: 2px solid;
+    border-radius: 6px;
+    font-size: 1.3vw;
+}
+
+.popup p {
+    color: black;
+}
